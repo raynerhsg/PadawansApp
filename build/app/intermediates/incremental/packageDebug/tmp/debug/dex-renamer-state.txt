@@ -1,4 +1,4 @@
-#Sun Jul 05 23:04:05 BRT 2020
-base.0=C\:\\Users\\rayne\\OneDrive\\Documentos\\Projects\\frmproject\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Mon Jan 04 07:20:23 BRT 2021
+base.0=C\:\\Users\\HP\\Documents\\Curso\\PadawansApp\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

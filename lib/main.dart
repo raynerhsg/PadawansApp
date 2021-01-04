@@ -1,21 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:frmproject/login.dart';
-//import 'package:http/http.dart';
+import 'package:flutter_plus/flutter_plus.dart';
+import 'package:frmproject/screens/login/login_screen.dart';
+import 'package:frmproject/screens/tab/tab_screen.dart';
 
 void main() {
-  runApp(HomePage());
+  runApp(HomeScreen());
 }
 
-class HomePage extends StatelessWidget {
+class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return FlutterAppPlus(
       debugShowCheckedModeBanner: false,
       title: 'PadawansApp',
       theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
+        cursorColor: Colors.deepPurple,
       ),
-      home: LoginPage(),
+      home: LoginScreen(),
     );
   }
 }
