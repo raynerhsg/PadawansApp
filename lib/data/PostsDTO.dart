@@ -1,4 +1,3 @@
-import 'package:frmproject/data/PhotosDTO.dart';
 import 'package:frmproject/data/UserDTO.dart';
 
 class PostsDTO {
@@ -17,4 +16,3 @@ class PostsDTO {
     user = UserDTO();
   }
 }
-

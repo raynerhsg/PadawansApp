@@ -89,12 +89,12 @@ class MyTabsState extends State<TabScreen> with SingleTickerProviderStateMixin {
                       buttonTwoCallback: () {
                         Navigator.pushAndRemoveUntil(
                           context,
-                          MaterialPageRoute(builder: (context) => LoginScreen()),
-                              (Route<dynamic> route) => false,
+                          MaterialPageRoute(
+                              builder: (context) => LoginScreen()),
+                          (Route<dynamic> route) => false,
                         );
                       },
                     );
-
                   },
                 ),
               ],
